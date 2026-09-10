@@ -47,15 +47,33 @@
 #      return text[::-1]
 # print("Reverse String:", reverse_string("Python"))
 
-def calculate_grade(marks):
-    if 90 <= marks <= 100:
-        return "A"
-    elif 80 <= marks <= 89:
-        return "B"
-    elif 70 <= marks <= 79:
-        return "C"
-    elif 60 <= marks <= 69:
-        return "D"
-    else:
-        return "F"
-print("Grade:", calculate_grade(85))
+# def calculate_grade(marks):
+#     if 90 <= marks <= 100:
+#         return "A"
+#     elif 80 <= marks <= 89:
+#         return "B"
+#     elif 70 <= marks <= 79:
+#         return "C"
+#     elif 60 <= marks <= 69:
+#         return "D"
+#     else:
+#         return "F"
+# print("Grade:", calculate_grade(85))
+
+# class student:
+#     def __init__(self,name,roll_no,marks):
+#         self.name = name
+#         self.roll_no = roll_no
+#         self.marks = marks
+#     def display_details(self):
+#         print('name:', self.name)
+#         print('Roll no:', self.roll_no)
+#         print('Marks:', self.marks)
+#         print()
+# s1 = student("Ramesh",'101','80')
+# s2 = student("Suresh", '102','98')
+
+# s1.display_details()
+# s2.display_details()
+
+class bank
