@@ -43,18 +43,49 @@
 
 # print(myfunction())
 
-def changecase(func):
-  def myinner():
-    return func().upper()
-  return myinner
+# def changecase(func):
+#   def myinner():
+#     return func().upper()
+#   return myinner
 
-@changecase
-def myfunction():
-  return "Hello Sally"
+# @changecase
+# def myfunction():
+#   return "Hello Sally"
 
-@changecase
-def otherfunction():
-  return "I am speed!"
+# @changecase
+# def otherfunction():
+#   return "I am speed!"
 
-print(myfunction())
-print(otherfunction())
+# print(myfunction())
+# print(otherfunction())
+
+# x = lambda a : a + 10
+# print(x(5))
+
+# def countdown(n):
+#   if n <= 0:
+#     print("Done!")
+#   else:
+#     print(n)
+#     countdown(n - 1)
+
+# countdown(5)
+
+# def count_up_to(n):
+#   count = 1
+#   while count <= n:
+#     yield count
+#     count += 1
+
+# for num in count_up_to(5):
+#   print(num)
+
+def count_up_to(n):
+  count = 1
+  while count <= n:
+    yield count
+    count += 2
+
+for num in count_up_to(10):
+  print(num)
+
